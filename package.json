@@ -1,0 +1,20 @@
+{
+  "name": "github-stars-organizer",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@effect/ai": "^0.35.0",
+    "@effect/ai-openai": "^0.39.0",
+    "@effect/platform": "^0.96.0",
+    "@effect/sql": "^0.51.0",
+    "@effect/sql-sqlite-bun": "^0.52.0",
+    "effect": "^3.21.0"
+  }
+}
